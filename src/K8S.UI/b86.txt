@@ -1,0 +1,263 @@
+[
+    {
+        "Id": "b86385aba906546e8dc275826eee1a37421f05c5b80435afc9e34a05e2f16de8",
+        "Created": "2021-03-02T20:21:49.6791398Z",
+        "Path": "dotnet",
+        "Args": [
+            "K8S.UI.dll"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 5775,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2021-03-02T20:21:49.8247753Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:8f77de8958e895b69d512aa1a89fda989c87e1529a332aaaa5e3aafa86da77eb",
+        "ResolvConfPath": "/var/lib/docker/containers/d9c305004bdaa219e955562efcb109b29c72a77265a68d73e01a262c06387e87/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/d9c305004bdaa219e955562efcb109b29c72a77265a68d73e01a262c06387e87/hostname",
+        "HostsPath": "/var/lib/kubelet/pods/3f00af64-a081-4914-b9ab-6c33d685a10d/etc-hosts",
+        "LogPath": "/var/lib/docker/containers/b86385aba906546e8dc275826eee1a37421f05c5b80435afc9e34a05e2f16de8/b86385aba906546e8dc275826eee1a37421f05c5b80435afc9e34a05e2f16de8-json.log",
+        "Name": "/k8s_frontend_frontend-688b5f6647-zv7bz_default_3f00af64-a081-4914-b9ab-6c33d685a10d_0",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/var/lib/kubelet/pods/3f00af64-a081-4914-b9ab-6c33d685a10d/volumes/kubernetes.io~secret/default-token-w8mds:/var/run/secrets/kubernetes.io/serviceaccount:ro",
+                "/var/lib/kubelet/pods/3f00af64-a081-4914-b9ab-6c33d685a10d/etc-hosts:/etc/hosts",
+                "/var/lib/kubelet/pods/3f00af64-a081-4914-b9ab-6c33d685a10d/containers/frontend/805074b0:/dev/termination-log"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "container:d9c305004bdaa219e955562efcb109b29c72a77265a68d73e01a262c06387e87",
+            "PortBindings": null,
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "host",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "container:d9c305004bdaa219e955562efcb109b29c72a77265a68d73e01a262c06387e87",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 1000,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": [
+                "seccomp=unconfined"
+            ],
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 2,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "/kubepods/kubepods/besteffort/pod3f00af64-a081-4914-b9ab-6c33d685a10d",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 100000,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "KernelMemory": 0,
+            "KernelMemoryTCP": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/asound",
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/2ea8c28876495765a0ee9a8baa0cd7f89bb8c0e5da8e94569a6ecd34b9b366cc-init/diff:/var/lib/docker/overlay2/rh5yvqbkfub1c1x5wz57dj6vn/diff:/var/lib/docker/overlay2/ahvx23yyx6dyu7wwk5lcno0no/diff:/var/lib/docker/overlay2/qhvd3mxayf2ei4anblkq3qwj5/diff:/var/lib/docker/overlay2/21c35121e754ca3874594d14d88ab2d8c680d347a695f42c31010f3fb33da8d8/diff:/var/lib/docker/overlay2/71340f1bfcd6dd2bd613f3b95029ddecf277e4a640b249d22f735618e7af7f2e/diff:/var/lib/docker/overlay2/dee27d52e37315b71ff3cd8201487e2c9b29b873911b11ae718fc1e312e72975/diff",
+                "MergedDir": "/var/lib/docker/overlay2/2ea8c28876495765a0ee9a8baa0cd7f89bb8c0e5da8e94569a6ecd34b9b366cc/merged",
+                "UpperDir": "/var/lib/docker/overlay2/2ea8c28876495765a0ee9a8baa0cd7f89bb8c0e5da8e94569a6ecd34b9b366cc/diff",
+                "WorkDir": "/var/lib/docker/overlay2/2ea8c28876495765a0ee9a8baa0cd7f89bb8c0e5da8e94569a6ecd34b9b366cc/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/var/lib/kubelet/pods/3f00af64-a081-4914-b9ab-6c33d685a10d/volumes/kubernetes.io~secret/default-token-w8mds",
+                "Destination": "/var/run/secrets/kubernetes.io/serviceaccount",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/var/lib/kubelet/pods/3f00af64-a081-4914-b9ab-6c33d685a10d/etc-hosts",
+                "Destination": "/etc/hosts",
+                "Mode": "",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/var/lib/kubelet/pods/3f00af64-a081-4914-b9ab-6c33d685a10d/containers/frontend/805074b0",
+                "Destination": "/dev/termination-log",
+                "Mode": "",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "frontend-688b5f6647-zv7bz",
+            "Domainname": "",
+            "User": "0",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "443/tcp": {},
+                "8080/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "KUBERNETES_SERVICE_PORT=443",
+                "KUBERNETES_PORT=tcp://10.96.0.1:443",
+                "KUBERNETES_PORT_443_TCP=tcp://10.96.0.1:443",
+                "KUBERNETES_PORT_443_TCP_PORT=443",
+                "BACKEND_SERVICE_PORT_8080_TCP_PROTO=tcp",
+                "BACKEND_SERVICE_PORT_8080_TCP_PORT=8080",
+                "FRONTEND_SERVICE_PORT_8081_TCP_PROTO=tcp",
+                "KUBERNETES_SERVICE_HOST=10.96.0.1",
+                "FRONTEND_SERVICE_PORT_8081_TCP_PORT=8081",
+                "BACKEND_SERVICE_SERVICE_PORT=8080",
+                "BACKEND_SERVICE_PORT=tcp://10.100.230.39:8080",
+                "FRONTEND_SERVICE_PORT=tcp://10.108.44.243:8081",
+                "KUBERNETES_PORT_443_TCP_PROTO=tcp",
+                "BACKEND_SERVICE_PORT_8080_TCP_ADDR=10.100.230.39",
+                "FRONTEND_SERVICE_SERVICE_HOST=10.108.44.243",
+                "FRONTEND_SERVICE_PORT_8081_TCP_ADDR=10.108.44.243",
+                "KUBERNETES_SERVICE_PORT_HTTPS=443",
+                "BACKEND_SERVICE_SERVICE_HOST=10.100.230.39",
+                "BACKEND_SERVICE_PORT_8080_TCP=tcp://10.100.230.39:8080",
+                "FRONTEND_SERVICE_SERVICE_PORT=8081",
+                "FRONTEND_SERVICE_PORT_8081_TCP=tcp://10.108.44.243:8081",
+                "KUBERNETES_PORT_443_TCP_ADDR=10.96.0.1",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "ASPNETCORE_URLS=http://*:8081",
+                "DOTNET_RUNNING_IN_CONTAINER=true",
+                "DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=true",
+                "ASPNETCORE_VERSION=2.1.25"
+            ],
+            "Cmd": null,
+            "Healthcheck": {
+                "Test": [
+                    "NONE"
+                ]
+            },
+            "Image": "sha256:8f77de8958e895b69d512aa1a89fda989c87e1529a332aaaa5e3aafa86da77eb",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": [
+                "dotnet",
+                "K8S.UI.dll"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "annotation.io.kubernetes.container.hash": "5f7cb052",
+                "annotation.io.kubernetes.container.ports": "[{\"containerPort\":8080,\"protocol\":\"TCP\"}]",
+                "annotation.io.kubernetes.container.restartCount": "0",
+                "annotation.io.kubernetes.container.terminationMessagePath": "/dev/termination-log",
+                "annotation.io.kubernetes.container.terminationMessagePolicy": "File",
+                "annotation.io.kubernetes.pod.terminationGracePeriod": "30",
+                "io.kubernetes.container.logpath": "/var/log/pods/default_frontend-688b5f6647-zv7bz_3f00af64-a081-4914-b9ab-6c33d685a10d/frontend/0.log",
+                "io.kubernetes.container.name": "frontend",
+                "io.kubernetes.docker.type": "container",
+                "io.kubernetes.pod.name": "frontend-688b5f6647-zv7bz",
+                "io.kubernetes.pod.namespace": "default",
+                "io.kubernetes.pod.uid": "3f00af64-a081-4914-b9ab-6c33d685a10d",
+                "io.kubernetes.sandbox.id": "d9c305004bdaa219e955562efcb109b29c72a77265a68d73e01a262c06387e87"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {},
+            "SandboxKey": "",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {}
+        }
+    }
+]
