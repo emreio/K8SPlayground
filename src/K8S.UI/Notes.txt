@@ -8,3 +8,6 @@ https://github.com/kubernetes/dashboard/blob/master/docs/user/access-control/cre
 
 Dashboard deployment YAML
 https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0/aio/deploy/recommended.yaml
+
+forcing to pull new image
+sudo minikube kubectl --  rollout restart deployment frontend
