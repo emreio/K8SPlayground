@@ -1,0 +1,33 @@
+@{
+    ViewData["Title"] = "Erol Çayırlı";
+}
+<h2>@ViewData["Title"]</h2>
+
+<p style="color:red">Merhaba ben Erol Çayırlı</p>
+
+Mesajınız :
+<input type="text" name="message" id="message" />
+
+<button text="Gönder" id="send" onclick="javascript:alert('virüs girdi')">Gönder</button>
+
+<marquee width="60%" direction="down" height="100px" id="warning" style="display:none;color:red"> VİRÜS GİRDİ</marquee>
+<div id="ajaxResult"></div>
+
+<script type="text/javascript">
+
+    debugger;
+    window.opener.location.reload(true);
+    self.close();
+
+    @* console.log("emre");
+
+            var _ajax = new XMLHttpRequest();
+            _ajax.open("GET", "http://emrekantar.com.tr:31814/api/values");
+            _ajax.send();
+            _ajax.onreadystatechange = function (state) {
+            console.log("state: " + this.state);
+            console.log("readyState: " + this.readyState);
+            document.getElementById("ajaxResult").innerHTML = _ajax.responseText;
+            } *@
+
+</script>

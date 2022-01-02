@@ -14,7 +14,7 @@ spec:
         spec:
             containers:
             -  name: frontend
-               image: proximacentauri/k8s:frontend
+               image: proximacentauri/kube-demo-web:latest
                imagePullPolicy: "Always"
                ports:
-                - containerPort: 8080
+                - containerPort: 8081

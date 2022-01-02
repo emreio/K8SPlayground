@@ -14,7 +14,7 @@ namespace K8S.API.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "Aren", "Kantar" };
+            return new string[] { "Aren", "Kantar", "29.03.2021 09:54", "İstanbul" };
         }
 
         // GET api/values/5
